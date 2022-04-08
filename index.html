@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>logo</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <!------------ start side bar ------------>
+    <div id="mySidenav" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Page 1</a>
+       
+      </div>
+    <!-------------- end side bar -------------->
+    <!-------------- start navbar -------------->
+      <nav>
+          <img src="./images/logo.png" alt="logo">
+        <span onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span>
+
+         </nav>
+    <!-------------- end navbar -------------->
+
+    <!-------------- start page content -------------->
+    
+      <div id="main" >
+
+
+    <section class="content">
+    <div class="upper-content">
+        <div class="left-upper">
+            <h2>How to choose the perfect wine for a perfect date night</h2>
+        </div>
+        <div class="right-upper">
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                <br>
+                <br>
+                Images from 
+                <a id="freepik_link" href="#">Freepik</a>
+                <br>
+                <br>
+                <a id="read_more" href="#">READ MORE</a>
+            </p>    
+        </div>
+    </div>
+    <div class="dwoner-content">
+    <div class="left_downer">
+        <img src="./images/dffg.jpg" alt="">
+    </div>
+    <div class="right_downer">
+asdsa
+    </div>
+
+    </div>
+    </section>
+
+    <!-------------- start footer -------------->
+
+    <footer>
+        <div class="upper-footer">
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+        <div class="downer-fotter">
+            <p><a href="#"><span>Website Templates</span></a> created with <a href="#"><span>Website Builder Software</span></a>.</p>
+        </div>
+    </footer>
+    <!-------------- end footer -------------->
+
+</div>
+    <!-------------- end page content -------------->
+    <!-------------- start js scripts -------------->
+    <script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementById("main").onclick=function(){
+      closeNav()
+  }
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.body.style.backgroundColor = "white";
+}
+    </script>
+    <!-------------- end js scripts -------------->
+
+</body>
+</html>
